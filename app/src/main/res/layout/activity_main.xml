@@ -22,15 +22,32 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="250dp"
+        android:layout_marginTop="200dp"
 />
+    <TextView
+        android:id="@+id/txCor1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="225dp"
+        android:text=""
+        />
 
     <ImageView
         android:id="@+id/cor2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="350dp"
+        android:layout_marginTop="320dp"
+        />
+
+    <TextView
+        android:id="@+id/txCor2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="345dp"
+        android:text=""
         />
 
     <ImageView
@@ -38,14 +55,23 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="450dp"
+        android:layout_marginTop="440dp"
+        />
+
+    <TextView
+        android:id="@+id/txCor3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="465dp"
+        android:text=""
         />
 
     <Button
         android:id="@+id/genButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="600dp"
+        android:layout_marginTop="650dp"
         android:layout_centerHorizontal="true"
         android:text="GERAR"
         />
