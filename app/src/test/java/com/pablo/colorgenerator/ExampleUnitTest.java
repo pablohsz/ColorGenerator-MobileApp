@@ -1,4 +1,4 @@
-package com.pablo.myapplication;
+package com.pablo.colorgenerator;
 
 import org.junit.Test;
 

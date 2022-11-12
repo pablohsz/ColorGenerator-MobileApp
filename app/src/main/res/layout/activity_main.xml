@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -10,71 +9,60 @@
         android:id="@+id/titleApp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Color Generator"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="50dp"
-        android:textSize="25dp"
-        android:textStyle="bold"
-        />
+        android:layout_marginTop="45dp"
+        android:fontFamily="@font/indie_flower"
+        android:text="color genertr"
+        android:textSize="35dp"
+        android:textStyle="bold" />
 
-    <ImageView
-        android:id="@+id/cor1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="200dp"
-/>
-    <TextView
-        android:id="@+id/txCor1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="225dp"
-        android:text=""
-        />
 
-    <ImageView
-        android:id="@+id/cor2"
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="320dp"
-        />
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/txCor2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="345dp"
-        android:text=""
-        />
+        <include
+            android:id="@+id/bloco1"
+            layout="@layout/blockcolor_layout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
 
-    <ImageView
-        android:id="@+id/cor3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="440dp"
-        />
+        <include
+            android:id="@+id/bloco2"
+            layout="@layout/blockcolor_layout2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp" />
 
-    <TextView
-        android:id="@+id/txCor3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="465dp"
-        android:text=""
-        />
+        <include
+            android:id="@+id/bloco3"
+            layout="@layout/blockcolor_layout3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp" />
+
+    </LinearLayout>
 
     <Button
         android:id="@+id/genButton"
-        android:layout_width="wrap_content"
+        android:layout_width="120dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="650dp"
+        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:text="GERAR"
-        />
+        android:layout_marginBottom="90dp"
+        android:text="GERAR CORES" />
+
+    <Button
+        android:id="@+id/codeButton"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="35dp"
+        android:text="VER RGB" />
 
 
 </RelativeLayout>
